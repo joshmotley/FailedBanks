@@ -4,8 +4,7 @@ from datetime import datetime, date;
 conn = sqlite3.connect('banklist.sqlite3')
 c = conn.cursor()
 c.execute('drop table if exists failed_banks')
-c.execute('create table failed_banks(id integer primary key autoincrement, 
-          name text, city text, state text, zip integer, close_date text, update_date text)')
+c.execute('create table failed_banks(id integer primary key autoincrement,name text, city text, state text, zip integer, close_date text, updated_date text)')
 
 def mysplit (string):
     quote = False
@@ -23,7 +22,7 @@ def mysplit (string):
     return retval
 
 # Read lines from file, skipping first line
-data = open("banklist.csv", "r").readlines()[1:]
+data = open("bankslist.csv", "r").readlines()[1:]
 for entry in data:
     # Parse values
     vals = mysplit(entry.strip())

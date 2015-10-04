@@ -15,6 +15,7 @@
 		263BFDDE1BF91F7A00C68BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263BFDDC1BF91F7A00C68BF9 /* LaunchScreen.storyboard */; };
 		263BFDE91BF91F7B00C68BF9 /* FailedBanksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 263BFDE81BF91F7B00C68BF9 /* FailedBanksTests.m */; };
 		263BFDF41BF91F7B00C68BF9 /* FailedBanksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 263BFDF31BF91F7B00C68BF9 /* FailedBanksUITests.m */; };
+		263BFE021BF9304900C68BF9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 263BFE011BF9304800C68BF9 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		263BFDEF1BF91F7B00C68BF9 /* FailedBanksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FailedBanksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		263BFDF31BF91F7B00C68BF9 /* FailedBanksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBanksUITests.m; sourceTree = "<group>"; };
 		263BFDF51BF91F7C00C68BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263BFE011BF9304800C68BF9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = "../../../../anaconda/pkgs/sqlite-3.8.4.1-0/lib/libsqlite3.0.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263BFE021BF9304900C68BF9 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +108,7 @@
 				263BFDD21BF91F7A00C68BF9 /* AppDelegate.m */,
 				263BFDD41BF91F7A00C68BF9 /* ViewController.h */,
 				263BFDD51BF91F7A00C68BF9 /* ViewController.m */,
+				263BFE011BF9304800C68BF9 /* libsqlite3.0.dylib */,
 				263BFDD71BF91F7A00C68BF9 /* Main.storyboard */,
 				263BFDDA1BF91F7A00C68BF9 /* Assets.xcassets */,
 				263BFDDC1BF91F7A00C68BF9 /* LaunchScreen.storyboard */,

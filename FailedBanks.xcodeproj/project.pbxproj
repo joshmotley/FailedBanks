@@ -16,6 +16,8 @@
 		263BFDE91BF91F7B00C68BF9 /* FailedBanksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 263BFDE81BF91F7B00C68BF9 /* FailedBanksTests.m */; };
 		263BFDF41BF91F7B00C68BF9 /* FailedBanksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 263BFDF31BF91F7B00C68BF9 /* FailedBanksUITests.m */; };
 		263BFE021BF9304900C68BF9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 263BFE011BF9304800C68BF9 /* libsqlite3.0.dylib */; };
+		263BFE041BF98F2000C68BF9 /* banklist.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 263BFE031BF98F2000C68BF9 /* banklist.sqlite3 */; };
+		263BFE071BF98F5E00C68BF9 /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 263BFE061BF98F5E00C68BF9 /* FailedBankInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		263BFDF31BF91F7B00C68BF9 /* FailedBanksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBanksUITests.m; sourceTree = "<group>"; };
 		263BFDF51BF91F7C00C68BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		263BFE011BF9304800C68BF9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = "../../../../anaconda/pkgs/sqlite-3.8.4.1-0/lib/libsqlite3.0.dylib"; sourceTree = "<group>"; };
+		263BFE031BF98F2000C68BF9 /* banklist.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = banklist.sqlite3; sourceTree = SOURCE_ROOT; };
+		263BFE051BF98F5E00C68BF9 /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
+		263BFE061BF98F5E00C68BF9 /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +113,9 @@
 				263BFDD21BF91F7A00C68BF9 /* AppDelegate.m */,
 				263BFDD41BF91F7A00C68BF9 /* ViewController.h */,
 				263BFDD51BF91F7A00C68BF9 /* ViewController.m */,
+				263BFE051BF98F5E00C68BF9 /* FailedBankInfo.h */,
+				263BFE061BF98F5E00C68BF9 /* FailedBankInfo.m */,
+				263BFE031BF98F2000C68BF9 /* banklist.sqlite3 */,
 				263BFE011BF9304800C68BF9 /* libsqlite3.0.dylib */,
 				263BFDD71BF91F7A00C68BF9 /* Main.storyboard */,
 				263BFDDA1BF91F7A00C68BF9 /* Assets.xcassets */,
@@ -253,6 +261,7 @@
 				263BFDDE1BF91F7A00C68BF9 /* LaunchScreen.storyboard in Resources */,
 				263BFDDB1BF91F7A00C68BF9 /* Assets.xcassets in Resources */,
 				263BFDD91BF91F7A00C68BF9 /* Main.storyboard in Resources */,
+				263BFE041BF98F2000C68BF9 /* banklist.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263BFE071BF98F5E00C68BF9 /* FailedBankInfo.m in Sources */,
 				263BFDD61BF91F7A00C68BF9 /* ViewController.m in Sources */,
 				263BFDD31BF91F7A00C68BF9 /* AppDelegate.m in Sources */,
 				263BFDD01BF91F7900C68BF9 /* main.m in Sources */,

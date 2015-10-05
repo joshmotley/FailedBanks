@@ -10,4 +10,16 @@
 
 @implementation FailedBankInfo
 
+-(id)initWithUniqueId:(int)uniqueId name:(NSString *)name city:(NSString *)city state:(NSString *)state{
+    
+    if (self = [super init]) {
+        _uniqueId = uniqueId;
+        _name = name;
+        _city = city;
+        _state = state;
+    }
+    return self;
+  
+}
+
 @end

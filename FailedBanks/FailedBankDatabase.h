@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <sqlite3.h>
 
 @interface FailedBankDatabase : NSObject
+@property sqlite3 *database;
+
++(FailedBankDatabase *)database;
+-(NSArray *)failedBankInfos;
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		260EF87F1BFAD92F00E5A992 /* FailedBanksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260EF87E1BFAD92F00E5A992 /* FailedBanksListViewController.m */; };
+		260EF8821BFAD92F00E5A992 /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 260EF8811BFAD92F00E5A992 /* FailedBankDetails.m */; };
 		263BFDD01BF91F7900C68BF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 263BFDCF1BF91F7900C68BF9 /* main.m */; };
 		263BFDD31BF91F7A00C68BF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 263BFDD21BF91F7A00C68BF9 /* AppDelegate.m */; };
 		263BFDD61BF91F7A00C68BF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263BFDD51BF91F7A00C68BF9 /* ViewController.m */; };
@@ -42,6 +43,8 @@
 /* Begin PBXFileReference section */
 		260EF87D1BFAD92F00E5A992 /* FailedBanksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBanksListViewController.h; sourceTree = SOURCE_ROOT; };
 		260EF87E1BFAD92F00E5A992 /* FailedBanksListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBanksListViewController.m; sourceTree = SOURCE_ROOT; };
+		260EF8801BFAD92F00E5A992 /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		260EF8811BFAD92F00E5A992 /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
 		263BFDCB1BF91F7900C68BF9 /* FailedBanks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FailedBanks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263BFDCF1BF91F7900C68BF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		263BFDD11BF91F7900C68BF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				263BFE031BF98F2000C68BF9 /* banklist.sqlite3 */,
 				263BFE011BF9304800C68BF9 /* libsqlite3.0.dylib */,
 				263BFDD71BF91F7A00C68BF9 /* Main.storyboard */,
+				260EF8801BFAD92F00E5A992 /* FailedBankDetails.h */,
+				260EF8811BFAD92F00E5A992 /* FailedBankDetails.m */,
 				263BFDDA1BF91F7A00C68BF9 /* Assets.xcassets */,
 				263BFDDC1BF91F7A00C68BF9 /* LaunchScreen.storyboard */,
 				263BFDDF1BF91F7A00C68BF9 /* Info.plist */,
@@ -301,6 +306,7 @@
 				263BFE071BF98F5E00C68BF9 /* FailedBankInfo.m in Sources */,
 				263BFDD61BF91F7A00C68BF9 /* ViewController.m in Sources */,
 				263BFDD31BF91F7A00C68BF9 /* AppDelegate.m in Sources */,
+				260EF8821BFAD92F00E5A992 /* FailedBankDetails.m in Sources */,
 				263BFDD01BF91F7900C68BF9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

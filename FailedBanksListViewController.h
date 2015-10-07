@@ -10,4 +10,6 @@
 
 @interface FailedBanksListViewController : UITableViewController
 
+@property (strong, nonatomic) NSArray *failedBankInfos;
+
 @end

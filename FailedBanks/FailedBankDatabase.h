@@ -14,5 +14,6 @@
 
 +(FailedBankDatabase *)database;
 -(NSArray *)failedBankInfos;
+-(FailedBankDetails *)failedBankDetails:(int)uniqueId;
 
 @end

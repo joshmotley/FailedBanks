@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FailedBankInfo.h"
+#import "FailedBankDatabase.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSArray *failedBankInfos = [FailedBankDatabase database].failedBankInfos;
+    for (FailedBankInfo *info in failedBankInfos) {
+        NSLog(@"%d: %@, %@, %@", info.uniqueId, info.name, info.city, info.state);
+    }
+    
     return YES;
 }
 

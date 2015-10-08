@@ -9,6 +9,7 @@
 #import "FailedBanksListViewController.h"
 #import "FailedBankDatabase.h"
 #import "FailedBankInfo.h"
+#import "FailedBanksDetailViewController.h"
 
 @implementation FailedBanksListViewController
 
@@ -42,6 +43,25 @@
     
     
     return cell;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
+    if ([segue.identifier  isEqual: @"detailsSegue"]) {
+        self.details = segue.destinationViewController;
+        
+    }
+    
+    
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if(self.details == nil){
+        self.details = [[FailedBanksDetailViewController alloc] initWithNibName:@"FailedBanksDetailViewController" bundle:nil];}
+    
+    FailedBankInfo *info = [_failedBankInfos objectAtIndex:indexPath.row];
+    self.details.uniqueId =info.uniqueId;
+    [self performSegueWithIdentifier:@"detailsSegue" sender:self];
 }
 
 @end

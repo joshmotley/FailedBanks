@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <sqlite3.h>
-
+@class FailedBankDetails;
 @interface FailedBankDatabase : NSObject
 @property sqlite3 *database;
 

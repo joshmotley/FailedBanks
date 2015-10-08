@@ -83,7 +83,7 @@ static FailedBankDatabase *_database;
             NSDate *updateDate = [formatter dateFromString:updatedDateString];
             
             retval = [[FailedBankDetails alloc]initWithUniqueId:uniqueId name:name city:city state:state zip:zip closeDate:closeDate updatedDate:updateDate];
-            break;}
+            }
         sqlite3_finalize(statement);}
     return retval;
     
